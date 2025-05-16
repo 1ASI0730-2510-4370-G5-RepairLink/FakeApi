@@ -4,13 +4,63 @@
       "id": 1,
       "name": "Alice",
       "email": "alice@example.com",
-      "password": "alice"
+      "password": "alice",
+      "serviceHistory": [
+        {
+          "name": "Handyman",
+          "date": "2025-05-10",
+          "status": "Cancelado"
+        },
+        {
+          "name": "Fontanería",
+          "date": "2025-04-28",
+          "status": "En proceso"
+        },
+        {
+          "name": "Montaje de TV",
+          "date": "2025-04-15",
+          "status": "Completado" }
+      ],
+      "scheduledServices": [
+        {
+          "name": "Electricidad",
+          "date": "2025-05-20" },
+        {
+          "name": "Jardinería",
+          "date": "2025-06-05"
+        }
+      ]
     },
     {
       "id": 2,
       "name": "Bob",
       "email": "bob@example.com",
-      "password": "bob"
+      "password": "bob",
+      "serviceHistory": [
+        {
+          "name": "Handyman",
+          "date": "2025-05-10",
+          "status": "Cancelado"
+        },
+        {
+          "name": "Fontanería",
+          "date": "2025-04-28",
+          "status": "En proceso"
+        },
+        {
+          "name": "Montaje de TV",
+          "date": "2025-04-15",
+          "status": "Completado" }
+      ],
+      "scheduledServices": [
+        {
+          "name": "Electricidad",
+          "date": "2025-05-20" },
+        {
+          "name": "Jardinería",
+          "date": "2025-06-05"
+        }
+      ]
     }
   ],
   "services": [
@@ -20,15 +70,5 @@
     { "id": 4, "name": "Plumbing", "description": "Reparación de tuberías", "status": "Disponible", "image": "https://i.pinimg.com/736x/92/2e/19/922e191963a040a7b53203d42ebba446.jpg" },
     { "id": 5, "name": "Electricidad", "description": "Instalaciones eléctricas", "status": "Disponible", "image": "https://media.istockphoto.com/id/1371990418/es/vector/electricistas-profesionales-en-el-trabajo-concepto-abstracto.jpg?s=612x612&w=0&k=20&c=vDSH3QS7t4oUyX8Y5UimQSORRUzIdHOxoKDcMAldODU=" },
     { "id": 6, "name": "Jardinería", "description": "Mantenimiento de jardines", "status": "Disponible", "image": "https://img.freepik.com/vector-premium/dibujos-animados-personajes-jardinero-mujer-joven-trabajando-jardineria-jardin_212168-1277.jpg" }
-  ],
-  "serviceHistory": [
-    { "id": 1, "name": "Handyman", "date": "2025-05-10", "status": "Cancelado" },
-    { "id": 2, "name": "Fontanería", "date": "2025-04-28", "status": "En proceso" },
-    { "id": 3, "name": "Montaje de TV", "date": "2025-04-15", "status": "Completado" }
-  ],
-  "scheduledServices": [
-    { "id": 1, "name": "Electricidad", "date": "2025-05-20" },
-    { "id": 2, "name": "Jardinería", "date": "2025-06-05" }
   ]
-
 }
