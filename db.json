@@ -1,315 +1,74 @@
 {
   "users": [
     {
-      "id": "1",
-      "name": "Juan Pérez Ortega",
-      "email": "juan.perez@example.com",
-      "password": "hashedpassword123",
-      "phone": "974276552",
-      "role": "customer",
-      "address_id": "002",
-      "specialty": "-",
-      "skills": [],
-      "background_check": true,
-      "documents": [],
-      "photo": "https://tu-dominio.com/uploads/users/1.jpg"
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "password": "alice",
+      "serviceHistory": [
+        {
+          "name": "Handyman",
+          "date": "2025-05-10",
+          "status": "Cancelado"
+        },
+        {
+          "name": "Fontanería",
+          "date": "2025-04-28",
+          "status": "En proceso"
+        },
+        {
+          "name": "Montaje de TV",
+          "date": "2025-04-15",
+          "status": "Completado" }
+      ],
+      "scheduledServices": [
+        {
+          "name": "Electricidad",
+          "date": "2025-05-20" },
+        {
+          "name": "Jardinería",
+          "date": "2025-06-05"
+        }
+      ]
     },
     {
-      "id": "2",
-      "name": "Ana Gómez",
-      "email": "ana.gomez@example.com",
-      "password": "hashedpassword456",
-      "role": "technician",
-      "address_id": "2",
-      "specialty": "02",
-      "skills": [
-        "Fontanería",
-        "Reparación de grifos"
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com",
+      "password": "bob",
+      "serviceHistory": [
+        {
+          "name": "Handyman",
+          "date": "2025-05-10",
+          "status": "Cancelado"
+        },
+        {
+          "name": "Fontanería",
+          "date": "2025-04-28",
+          "status": "En proceso"
+        },
+        {
+          "name": "Montaje de TV",
+          "date": "2025-04-15",
+          "status": "Completado" }
       ],
-      "background_check": false,
-      "documents": [
-        "cv_ana_gomez.pdf"
-      ],
-      "photo": "https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg"
-    },
-    {
-      "id": "3",
-      "name": "Pilar Chaparro",
-      "email": "pilar.chaparro@example.com",
-      "password": "hashedpassword123",
-      "role": "customer",
-      "address_id": "",
-      "specialty": "-",
-      "skills": [],
-      "background_check": true,
-      "documents": [],
-      "photo": "https://tu-dominio.com/uploads/users/1.jpg"
-    },
-    {
-      "id": "4",
-      "name": "Karen Ramos",
-      "email": "karen.ramos@gmail.com",
-      "password": "Krenxu125",
-      "role": "customer",
-      "address_id": "001",
-      "specialty": "-",
-      "skills": [],
-      "background_check": true,
-      "documents": [],
-      "photo": "https://tu-dominio.com/uploads/users/1.jpg"
-    },
-    {
-      "id": "5",
-      "name": "Jose Lopez",
-      "email": "jlopez@example.com",
-      "password": "hashedpassword456",
-      "role": "technician",
-      "address_id": "addr-5555-6666-7777-8888",
-      "specialty": "02",
-      "skills": [
-        "Fontanería",
-        "Reparación de grifos"
-      ],
-      "background_check": false,
-      "documents": [
-        "cv_j_lopez.pdf"
-      ],
-      "photo": "https://tu-dominio.com/uploads/users/1.jpg"
-    },
-    {
-      "id": "6",
-      "name": "Jose Lopez",
-      "email": "jlopezh@example.com",
-      "password": "hashedpassword456",
-      "role": "technician",
-      "address_id": "addr-5555-6666-7777-8888",
-      "specialty": "02",
-      "skills": [
-        "Fontanería",
-        "Reparación de grifos"
-      ],
-      "background_check": false,
-      "documents": [
-        "cv_j_lopez.pdf"
-      ],
-      "photo": "https://tu-dominio.com/uploads/users/1.jpg"
-    },
-    {
-      "id": "7",
-      "name": "Jose Lopez",
-      "email": "jlopezg@example.com",
-      "password": "hashedpassword456",
-      "role": "technician",
-      "address_id": "addr-5555-6666-7777-8888",
-      "specialty": "02",
-      "skills": [
-        "Fontanería",
-        "Reparación de grifos"
-      ],
-      "background_check": false,
-      "documents": [
-        "cv_j_lopez.pdf"
-      ],
-      "photo": "https://tu-dominio.com/uploads/users/1.jpg"
-    },
-    {
-      "id": "8",
-      "name": "Jose Lopez",
-      "email": "jlopezed@example.com",
-      "password": "hashedpassword456",
-      "role": "technician",
-      "address_id": "addr-5555-6666-7777-8888",
-      "specialty": "02",
-      "skills": [
-        "Fontanería",
-        "Reparación de grifos"
-      ],
-      "background_check": false,
-      "documents": [
-        "cv_j_lopez.pdf"
-      ],
-      "photo": "https://tu-dominio.com/uploads/users/1.jpg"
-    },
-    {
-      "id": "9",
-      "name": "Guillermo Stark",
-      "email": "gstark@gmail.com",
-      "password": "123456",
-      "role": "technician",
-      "phone": "974276552",
-      "address_id": "-",
-      "specialty": "01",
-      "skills": [
-        "Plumbing"
-      ],
-      "background_check": false,
-      "documents": [],
-      "photo": "https://tu-dominio.com/uploads/users/1.jpg"
-    }
-  ],
-  "addresses": [
-    {
-      "id": "001",
-      "street": "Av. Las Flores 123",
-      "city": "Lima",
-      "zip_code": "15001",
-      "lat": -12.046374,
-      "lng": -77.042793
-    },
-    {
-      "id": "002",
-      "street": "Jr. Los Olivos 456",
-      "city": "Lima",
-      "zip_code": "15002",
-      "lat": -12.04318,
-      "lng": -77.02824
+      "scheduledServices": [
+        {
+          "name": "Electricidad",
+          "date": "2025-05-20" },
+        {
+          "name": "Jardinería",
+          "date": "2025-06-05"
+        }
+      ]
     }
   ],
   "services": [
-    {
-      "id": "01",
-      "name": "Servicios generales",
-      "description": "Reparación de drywall (paredes de yeso),Pintura interior,Armado de muebles,Servicios generales de mantenimiento",
-      "base_price": 150,
-      "image": "https://i.pinimg.com/736x/8d/7b/5c/8d7b5c42e7fd8eab0a1c966b85a7ba98.jpg"
-    },
-    {
-      "id": "02",
-      "name": "Reparación de electrodomésticos",
-      "description": "Refrigerador/Nevera,Lavadora y Secadora,Horno y Cocina empotrada,Lavavajillas",
-      "base_price": 200,
-      "image": "https://i.pinimg.com/736x/63/21/04/632104b4eba3df260577a6b32dca8e0a.jpg"
-    },
-    {
-      "id": "03",
-      "name": "Montaje de TV",
-      "description": "Arriba de 31, 32-60, 61-80, Arriba de 81",
-      "base_price": 200,
-      "image": "https://media.istockphoto.com/id/1174798682/es/vector/hombre-isom%C3%A9trico-vectorial-en-la-instalaci%C3%B3n-de-tv.jpg?s=612x612&w=0&k=20&c=r40PrkzxAbikcn2UW-wMWSer8J2yTov1OsCbmo3A2t0="
-    },
-    {
-      "id": "04",
-      "name": "Servicio de gasfiteria",
-      "description": "Baño, Desagües, Cocina, Lavandería, Calentador de agua, Líneas de agua o gas",
-      "base_price": 200,
-      "image": "https://i.pinimg.com/736x/92/2e/19/922e191963a040a7b53203d42ebba446.jpg"
-    },
-    {
-      "id": "05",
-      "name": "Reparación de puertas de garaje",
-      "description": "Reemplazo de cable, Reemplazo de puerta, Reparación de abre-puertas de garaje",
-      "base_price": 200,
-      "image": "https://img.freepik.com/free-vector/guy-with-goatee-holding-garage-door-remote-vector_53876-17207.jpg"
-    },
-    {
-      "id": "06",
-      "name": "Instalación de SmartHome ",
-      "description": "Cámara de seguridad inteligente, timbre con video, termostato, concentrador o altavoz inteligente",
-      "base_price": 200,
-      "image": "https://media.istockphoto.com/id/1371990418/es/vector/electricistas-profesionales-en-el-trabajo-concepto-abstracto.jpg?s=612x612&w=0&k=20&c=vDSH3QS7t4oUyX8Y5UimQSORRUzIdHOxoKDcMAldODU="
-    },
-    {
-      "id": "07",
-      "name": "Reparación de iPhone",
-      "description": "Instalación de LCD, reemplazo de batería",
-      "base_price": 200,
-      "image": "https://img.freepik.com/free-vector/product-teardown-concept-illustration_114360-1240.jpg?t=st=1750417841~exp=1750421441~hmac=22d3fc80f064f6ba38e89085c1bb12f635b0fcad7e5f964d58a169030f7755c7&w=1380"
-    }
-  ],
-  "bookings": [
-    {
-      "id": "1",
-      "customer_id": "1",
-      "technician_id": "2",
-      "service_id": "01",
-      "address_id": "001",
-      "scheduled_time": "2025-06-01T10:00:00Z",
-      "status": "nuevo"
-    },
-    {
-      "id": "2",
-      "customer_id": "1",
-      "technician_id": "2",
-      "service_id": "02",
-      "address_id": "002",
-      "scheduled_time": "2025-08-01T10:00:00Z",
-      "status": "confrimado"
-    },
-    {
-      "id": "3",
-      "customer_id": "4",
-      "technician_id": "2",
-      "service_id": "02",
-      "address_id": "001",
-      "scheduled_time": "2025-06-21T22:00:00.000Z",
-      "status": "nuevo"
-    }
-  ],
-  "payments": [
-    {
-      "id": "payment-001",
-      "booking_id": "booking-0001",
-      "amount": 150,
-      "payment_method": "credit_card",
-      "status": "completed",
-      "timestamp": "2025-05-28T15:00:00Z"
-    }
-  ],
-  "reviews": [
-    {
-      "id": "review-001",
-      "booking_id": "booking-0001",
-      "technician_id": "2",
-      "customer_id": "1",
-      "rating": 5,
-      "comments": "Servicio excelente y puntual.",
-      "created_at": "2025-06-02T12:00:00Z"
-    }
-  ],
-  "availability_days": [
-    {
-      "id": "availday-001",
-      "slot_id": "slot-001",
-      "day_of_week": "Monday"
-    },
-    {
-      "id": "availday-002",
-      "slot_id": "slot-002",
-      "day_of_week": "Wednesday"
-    }
-  ],
-  "availability_slots": [
-    {
-      "id": "slot-001",
-      "technician_id": "2b3c4d5e-1111-2222-3333-444455556666",
-      "start_time": "2025-06-01T08:00:00Z",
-      "end_time": "2025-06-01T12:00:00Z",
-      "is_recurring": true
-    },
-    {
-      "id": "slot-002",
-      "technician_id": "2b3c4d5e-1111-2222-3333-444455556666",
-      "start_time": "2025-06-03T14:00:00Z",
-      "end_time": "2025-06-03T18:00:00Z",
-      "is_recurring": false
-    }
-  ],
-  "notifications": [
-    {
-      "id": "notif-001",
-      "recipient_id": "1a2b3c4d-0000-1111-2222-333344445555",
-      "message": "Su cita ha sido confirmada para el 1 de junio a las 10 AM.",
-      "type": "booking_confirmation",
-      "status": "unread",
-      "created_at": "2025-05-25T09:00:00Z"
-    },
-    {
-      "id": "notif-002",
-      "recipient_id": "2b3c4d5e-1111-2222-3333-444455556666",
-      "message": "Tiene una nueva solicitud de servicio asignada.",
-      "type": "service_assignment",
-      "status": "read",
-      "created_at": "2025-05-26T10:00:00Z"
-    }
+    { "id": 1, "name": "Handyman", "description": "Reparaciones generales", "status": "Disponible", "image": "https://i.pinimg.com/736x/8d/7b/5c/8d7b5c42e7fd8eab0a1c966b85a7ba98.jpg" },
+    { "id": 2, "name": "Home Appliances", "description": "Reparación de electrodomésticos", "status": "Disponible", "image": "https://i.pinimg.com/736x/63/21/04/632104b4eba3df260577a6b32dca8e0a.jpg" },
+    { "id": 3, "name": "TV Mount", "description": "Instalación y configuración", "status": "Reservado", "image": "https://media.istockphoto.com/id/1174798682/es/vector/hombre-isom%C3%A9trico-vectorial-en-la-instalaci%C3%B3n-de-tv.jpg?s=612x612&w=0&k=20&c=r40PrkzxAbikcn2UW-wMWSer8J2yTov1OsCbmo3A2t0=" },
+    { "id": 4, "name": "Plumbing", "description": "Reparación de tuberías", "status": "Disponible", "image": "https://i.pinimg.com/736x/92/2e/19/922e191963a040a7b53203d42ebba446.jpg" },
+    { "id": 5, "name": "Electricidad", "description": "Instalaciones eléctricas", "status": "Disponible", "image": "https://media.istockphoto.com/id/1371990418/es/vector/electricistas-profesionales-en-el-trabajo-concepto-abstracto.jpg?s=612x612&w=0&k=20&c=vDSH3QS7t4oUyX8Y5UimQSORRUzIdHOxoKDcMAldODU=" },
+    { "id": 6, "name": "Jardinería", "description": "Mantenimiento de jardines", "status": "Disponible", "image": "https://img.freepik.com/vector-premium/dibujos-animados-personajes-jardinero-mujer-joven-trabajando-jardineria-jardin_212168-1277.jpg" }
   ]
 }
